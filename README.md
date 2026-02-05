@@ -1,1 +1,1 @@
-# Supply-Chain-Management---Demand-forecasting
+# Supply Chain Management-Demand forecasting
