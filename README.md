@@ -11,7 +11,7 @@ This project demonstrates multiple forecasting techniques ranging from basic sta
 - [3 Weighted Moving Average](#3-weighted-moving-average)
 - [4 Exponential Smoothing](#4-Exponential-smoothing)
 - [5 Holt Winters](#5-Holt-Winters)
-- [6 ARIMA/SARIMA](#6-ARIMA/SARIMA)
+- [6 ARIMA OR SARIMA](#6-ARIMA-OR-SARIMA)
 - [7 Regression](#7-Regression)
 - [8 Machine Learning](#8-Machine-Learning)
 - [Interview Questions](#interview-questions)
@@ -184,7 +184,7 @@ fit.forecast(7)
 #### Use When
 - Trend + Seasonality exist
 
-### 6 ARIMA/SARIMA
+### 6 ARIMA OR SARIMA
 **Scenerio:** Forecast monthly shipment volume considering long-term trend and seasonality.
 
 **📊 Excel Method**
