@@ -6,14 +6,14 @@ This project demonstrates multiple forecasting techniques ranging from basic sta
 - [Types of Demand Forecasting](#types-of-demand-forecasting)
 - [Common Demand Forecasting Techniques](#common-demand-forecasting-techniques)
 - [Applications in Business](#applications-in-business)
-- [1 Qualitative Forecasting](#1-qualitative-forecasting)
-- [2 Simple Moving Average](#2-simple-moving-average)
-- [3 Weighted Moving Average](#3-weighted-moving-average)
-- [4 Exponential Smoothing](#4-Exponential-smoothing)
-- [5 Holt Winters](#5-Holt-Winters)
-- [6 ARIMA OR SARIMA](#6-ARIMA-OR-SARIMA)
-- [7 Regression](#7-Regression)
-- [8 Machine Learning](#8-Machine-Learning)
+- [Qualitative Forecasting](#qualitative-forecasting)
+- [Simple Moving Average](#simple-moving-average)
+- [Weighted Moving Average](#weighted-moving-average)
+- [Exponential Smoothing](#exponential-smoothing)
+- [Holt Winters](#holt-winters)
+- [ARIMA OR SARIMA](#arima-or-sarima)
+- [Regression](#regression)
+- [Machine Learning](#machine-learning)
 - [Interview Questions](#interview-questions)
 
 ## Definition
@@ -41,8 +41,7 @@ Demand forecasting is the process of predicting future customer demand for a pro
 - **Production Scheduling:** Aligns manufacturing with expected demand.
 - **Pricing Strategy:** Supports dynamic pricing decisions.
 
-## Examples
-### 1 Qualitative Forecasting 
+## Qualitative Forecasting 
 - (Expert/Judgment Bases)
   
 **Scenario:** A logistics company is launching same-day delivery in Tier-2 cities. There is no historical data, so demand is estimated using:
@@ -78,7 +77,7 @@ df
 - New service/new city
 - No historical data
 
-### 2 Simple Moving Average 
+## Simple Moving Average 
 - (Time Series)
 
 **Scenario:** Forecast daily parcel volume for next week using last 7 days data.
@@ -115,7 +114,7 @@ forecast
 - Stable demand
 - No seasonality
 
-### 3 Weighted Moving Average
+## Weighted Moving Average
 **Scenerio:** Recent days matter more due to sale season.
 
 **📊 Excel Method**
@@ -133,7 +132,7 @@ forecast
 #### Use When
 - Recent demand is more important
 
-### 4 Exponential Smoothing
+## Exponential Smoothing
 **Scenerio:** Forecast parcel demand where demand changes gradually.
 
 **📊 Excel Method**
@@ -156,7 +155,7 @@ fit.forecast(1)
 - Short-term forecasting
 - Smooth trend
 
-### 5 Holt Winters
+## Holt Winters
 - Trend + Seasonality
 **Scenerio:** Logistics company sees weekly sesonality:
 - High orders on Fri-Sun
@@ -184,7 +183,7 @@ fit.forecast(7)
 #### Use When
 - Trend + Seasonality exist
 
-### 6 ARIMA OR SARIMA
+## ARIMA OR SARIMA
 **Scenerio:** Forecast monthly shipment volume considering long-term trend and seasonality.
 
 **📊 Excel Method**
@@ -204,7 +203,7 @@ fit.forecast(steps=7)
 - Strong time-series patterns
 - Medium-logn term planning
 
-### 7 Regression
+## Regression
 - Causal Forecasting
 
 **Scenerio:** Demand depends on -
@@ -232,7 +231,7 @@ model.predict([[18, 80000]])
 #### Use When
 - External factors affect demand
 
-### 8 Machine Learning
+## Machine Learning
 - (XGBoost/Randon Forest)
 
 **Scenerio:** Forecast city-level daily demand using-
@@ -260,7 +259,7 @@ model.predict([[4,1,18]])
 - Large data
 - Non-linear patterns
 
-
+## Interview Questions
 
 
 
