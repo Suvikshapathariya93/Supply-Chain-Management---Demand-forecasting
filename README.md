@@ -305,8 +305,7 @@ model.predict([[4,1,18]])
 ✨ **I'm open to feedback and discussions! Reach out with any questions, suggestions, or collaboration ideas.** 
 
 👉 [LinkedIn | Suviksha Pathariya](https://www.linkedin.com/in/suviksha-pathariya/) 
-
-👉 [Instagram | Suviksha Pathariya]()
+👉 [Instagram | Suviksha Pathariya](https://www.instagram.com/dataanalyst.play?igsh=eGRnZDQ2cTRta2Vz)
 
 ⭐ **Don’t forget to star and follow this repository if you found it useful!** 
 
