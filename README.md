@@ -73,7 +73,7 @@ df = pd.DataFrame(date)
 df
 ```
 
-#### Use When
+### Use When
 - New service/new city
 - No historical data
 
@@ -110,7 +110,7 @@ forecast = df['orders'].rolling(window=7).mean().iloc[-1]
 forecast
 ```
 
-#### Use When
+### Use When
 - Stable demand
 - No seasonality
 
@@ -129,7 +129,7 @@ forecast = sum(w*d for w,d in zip(weights, orders))
 forecast
 ```
 
-#### Use When
+### Use When
 - Recent demand is more important
 
 ## Exponential Smoothing
@@ -151,7 +151,7 @@ fit = model.fit(smoothing_level=0.3)
 fit.forecast(1)
 ```
 
-#### Use When
+### Use When
 - Short-term forecasting
 - Smooth trend
 
@@ -180,7 +180,7 @@ fit = model.fit()
 fit.forecast(7)
 ```
 
-#### Use When
+### Use When
 - Trend + Seasonality exist
 
 ## ARIMA OR SARIMA
@@ -199,7 +199,7 @@ fit = model.fit()
 fit.forecast(steps=7)
 ```
 
-#### Use When
+### Use When
 - Strong time-series patterns
 - Medium-logn term planning
 
@@ -228,7 +228,7 @@ model.fit(x,y)
 model.predict([[18, 80000]])
 ```
 
-#### Use When
+### Use When
 - External factors affect demand
 
 ## Machine Learning
@@ -255,11 +255,52 @@ model.fit(x,y)
 model.predict([[4,1,18]])
 ```
 
-#### Use When
+### Use When
 - Large data
 - Non-linear patterns
 
 ## Interview Questions
+### Potential Interview Questions & Discussion Points
+- 📦 Business Understanding
+  - Why did you choose demand forecasting for a logistics use case?
+  - How does accurate demand forecasting impact logistics operations?
+  - What business decisions can be improved using your model?
+  - How would forecasting reduce SLA breaches in last-mile delivery?
+  - What challenges did you face while modeling shipment date?
+
+- 📊 Data & Processing
+  - How did you handle missing values and outliers in shipment data?
+  - How did you identify seasonality in your dataset?
+  - What feature enginneering techniques did you apply?
+  - How did you split time-series data for training and testing?
+  - Why can't we randomly shuffle data in time-series forecasting?
+ 
+- 📈 Model Selection & Techniques
+  - When would you use Moving Average vs Exponential Smoothing?
+  - Why did you choose Holt-Winters for seasonal demand?
+  - What is the difference between ARIMA and SARIMA?
+  - How do you decide ARIMA parameters (p,d,q)?
+  - When would you prefer Regression over Time Series models?
+  - Why use Machine Learning models like Random Forest for forecasting?
+  - What are the limitations of ARIMA models?
+  - How does seasonality affect logistics demand?
+ 
+- 🧮 Model Evaluation
+  - Why did you use MAE, RMSE and MAPE?
+  - Which metrics is most important for logistics demand forecasting and why?
+  - How would over-forecasting vs under-forecasting impact business?
+  - How did you compare multiple models?
+  - How do you check if your model is overfitting?
+ 
+- 🧠 Advanced / Scenerio-Based
+  - If a sudden festival spike occurs, how would your model handle it?
+  - How would you forecast demand for a newly launched city with no data?
+  - How would you incorporate weather or marketing spend into forecasting?
+  - If demand suddenly drops by 30%, how would you investigate?
+  - How would you deploy this forecasting model in production?
+  - How would you build a real-time forecasting dashboard?
+  - How can this project be scaled to SKU-level forecasting?
+
 
 
 
