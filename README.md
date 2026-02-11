@@ -1,4 +1,11 @@
 # 🏭 Supply Chain Management-Demand forecasting
+
+
+<p align="center">
+  <img width="500" height="200" src="https://github.com/Suvikshapathariya93/Supply-Chain-Management---Demand-forecasting/blob/main/OIP.webp" alt="image"/>
+</p>
+
+
 This project demonstrates multiple forecasting techniques ranging from basic statistical models to advanced machine learning approaches using Excel and Python.
 
 ## Contents 📖
