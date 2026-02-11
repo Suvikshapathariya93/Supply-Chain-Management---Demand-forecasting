@@ -301,6 +301,16 @@ model.predict([[4,1,18]])
   - How would you build a real-time forecasting dashboard?
   - How can this project be scaled to SKU-level forecasting?
 
+---
+✨ **I'm open to feedback and discussions! Reach out with any questions, suggestions, or collaboration ideas.** 
+
+👉 [LinkedIn | Suviksha Pathariya](https://www.linkedin.com/in/suviksha-pathariya/) 
+
+👉 [Instagram | Suviksha Pathariya]()
+
+⭐ **Don’t forget to star and follow this repository if you found it useful!** 
+
+💡 **Stay tuned for more features and updates coming soon!** 
 
 
 
